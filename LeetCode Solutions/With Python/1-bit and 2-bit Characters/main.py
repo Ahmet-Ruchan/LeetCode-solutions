@@ -6,11 +6,9 @@
 
 bits = [1,1,0,0,0,1,0] # return False 
 
-#bits = [1,1,0,1] # return False
-
 def isOneBitCharacter(bits: list) -> bool:
-
-    i = 0 
+    
+    i = 0
     n = len(bits)
     
     while i < n - 1:
