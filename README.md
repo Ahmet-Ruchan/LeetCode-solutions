@@ -6,19 +6,19 @@ Bu repo, CS50 ders alıştırmalarını ve LeetCode algoritma sorularını çöz
 
 ## İçerik
 
-### C Programming
+### CS50 — C Programming
 
 CS50 derslerini takip ederek yazdığım C programları, ders bazında klasörlenmiştir.
 
 ```
-C Programming/
+CS50/
 └── Lecture-1/
     └── main.c
 ```
 
 Derleme (macOS / Apple Silicon):
 ```bash
-clang -o output/<isim> "C Programming/<Lecture-N>/main.c"
+clang -o output/<isim> "CS50/<Lecture-N>/main.c"
 ```
 
 ### LeetCode Solutions — Python
@@ -94,7 +94,7 @@ Her ajan inceleme sonunda otomatik olarak `.claude/reports/` klasörüne Türkç
 
 | Kaynak Dosya | Rapor Yolu |
 |---|---|
-| `C Programming/Lecture-1/main.c` | `.claude/reports/lecture-1_main.md` |
+| `CS50/Lecture-1/main.c` | `.claude/reports/lecture-1_main.md` |
 | `LeetCode Solutions/With Python/Two Sum/main.py` | `.claude/reports/py_leetcode_two-sum.md` |
 
 ---
