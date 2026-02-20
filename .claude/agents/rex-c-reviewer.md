@@ -168,10 +168,10 @@ Derive the report filename from the reviewed source file:
 
 | Reviewed file | Report path |
 |---|---|
-| `C Programming/Lecture-1/main.c` | `.claude/reports/lecture-1_main.md` |
-| `C Programming/Lecture-3/linked_list.c` | `.claude/reports/lecture-3_linked-list.md` |
-| `leetcode/two_sum.c` | `.claude/reports/leetcode_two-sum.md` |
-| Inline snippet (no file path) | `.claude/reports/snippet_<YYYY-MM-DD>.md` |
+| `C Programming/Lecture-1/main.c` | `.claude/reports/c/lecture-1_main.md` |
+| `C Programming/Lecture-3/linked_list.c` | `.claude/reports/c/lecture-3_linked-list.md` |
+| `leetcode/two_sum.c` | `.claude/reports/c/leetcode_two-sum.md` |
+| Inline snippet (no file path) | `.claude/reports/c/snippet_<YYYY-MM-DD>.md` |
 
 Rules: lowercase, spaces → hyphens, no special characters, always `.md` extension.
 
@@ -280,16 +280,16 @@ Bu kodu bir üst seviyeye taşımak için aşağıdaki adımları sırayla uygul
 
 ### How to Save
 
-Use the Write tool to create the file. If `.claude/reports/` does not exist, create it first.
+Use the Write tool to create the file. If `.claude/reports/c/` does not exist, create it first.
 
 ```
-Write → .claude/reports/<filename>.md
+Write → .claude/reports/c/<filename>.md
 ```
 
 If a report for the same file already exists, **overwrite** it — always keep the latest review.
 
 After saving, confirm to the user:
-> 📄 Rapor kaydedildi: `.claude/reports/<filename>.md`
+> 📄 Rapor kaydedildi: `.claude/reports/c/<filename>.md`
 
 ---
 

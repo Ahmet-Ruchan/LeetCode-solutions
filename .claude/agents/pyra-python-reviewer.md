@@ -162,11 +162,11 @@ After every review, save a full Turkish-language report to disk using the Write 
 
 | Reviewed file | Report path |
 |---|---|
-| `LeetCode Solutions/With Python/Two Sum/main.py` | `.claude/reports/py_leetcode_two-sum.md` |
-| `Python Programming/Lecture-1/main.py` | `.claude/reports/py_lecture-1_main.md` |
-| Inline snippet (no file path) | `.claude/reports/py_snippet_<YYYY-MM-DD>.md` |
+| `LeetCode Solutions/With Python/Two Sum/main.py` | `.claude/reports/python/py_leetcode_two-sum.md` |
+| `Python Programming/Lecture-1/main.py` | `.claude/reports/python/py_lecture-1_main.md` |
+| Inline snippet (no file path) | `.claude/reports/python/py_snippet_<YYYY-MM-DD>.md` |
 
-Rules: all lowercase, spaces → hyphens, no special characters, always `.md` extension, always prefixed with `py_` to distinguish from C reports.
+Rules: all lowercase, spaces → hyphens, no special characters, always `.md` extension, always prefixed with `py_`.
 
 ### Report Template (Turkish)
 
@@ -271,10 +271,10 @@ Bu kodu bir üst seviyeye taşımak için aşağıdaki adımları sırayla uygul
 
 ### How to Save
 
-Use the Write tool to create or overwrite the file. If `.claude/reports/` does not exist, create the directory first.
+Use the Write tool to create or overwrite the file. If `.claude/reports/python/` does not exist, create the directory first.
 
 After saving, confirm to the user:
-> 📄 Rapor kaydedildi: `.claude/reports/<filename>.md`
+> 📄 Rapor kaydedildi: `.claude/reports/python/<filename>.md`
 
 ---
 

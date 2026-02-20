@@ -90,12 +90,12 @@ Bu repo, kod inceleme süreçlerini otomatikleştiren iki özel Claude ajanıyla
 
 ## Raporlar
 
-Her ajan inceleme sonunda otomatik olarak `.claude/reports/` klasörüne Türkçe rapor kaydeder.
+Her ajan inceleme sonunda otomatik olarak ilgili alt klasöre Türkçe rapor kaydeder.
 
 | Kaynak Dosya | Rapor Yolu |
 |---|---|
-| `CS50/Lecture-1/main.c` | `.claude/reports/lecture-1_main.md` |
-| `LeetCode Solutions/With Python/Two Sum/main.py` | `.claude/reports/py_leetcode_two-sum.md` |
+| `CS50/Lecture-1/main.c` | `.claude/reports/c/lecture-1_main.md` |
+| `LeetCode Solutions/With Python/Two Sum/main.py` | `.claude/reports/python/py_leetcode_two-sum.md` |
 
 ---
 
